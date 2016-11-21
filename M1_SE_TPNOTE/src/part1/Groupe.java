@@ -1,64 +1,101 @@
 package part1;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Groupe {
-	//extends ThreadGroup ?
-	//groupe de 8
-	
-	private int capacite;
+	/**
+	 * La capacité max du groupe
+	 */
+	private final int capacite;
+	/**
+	 * Num de la piste Si le groupe n'a pas de piste numPiste = -1
+	 */
 	private int numPiste;
-	private String nom;
-	
-	private List<Client> clients;//Client or Thread
-	
+	/**
+	 * nom du groupe. exemple : G0
+	 */
+	private final String nom;
+	/**
+	 * Liste des clients
+	 */
+
+	private ArrayList<Client> clients;
+
 	public Groupe(String nom) {
+		this.nom = nom;
 		this.clients = new ArrayList<Client>();
-		capacite = 8;
+		capacite = 4;
 		numPiste = -1;
-		this.nom=nom;
+
 	}
-	
+
+	/**
+	 * Si le groupe est complet renvoie true
+	 * 
+	 * @return
+	 */
 	public synchronized boolean isComplete() {
 		return this.clients.size() == capacite;
 	}
-	
+
+	/**
+	 * Ajoute un client
+	 * 
+	 * @param c
+	 */
 	public synchronized void addClient(Client c) {
-		if(!isComplete()) {
-			this.clients.add(c);
-			c.setGroupe(this);
-		}
+
+		this.clients.add(c);
+		c.setGroupe(this);
+
 	}
-	
-	public synchronized boolean toutesChaussuresBoowling(){
+
+	/**
+	 * Si tout le monde posséde des chaussures de bowling renvoie true
+	 * 
+	 * @return
+	 */
+	public synchronized boolean tousChaussuresBowling() {
 		boolean res = true;
-		for(Client c : clients){
-			res = res && c.aSesChaussureDebowling();
+		for (Client c : clients) {
+			res = res && c.possedeChaussureBowling();
 		}
-		
+
 		return res;
 	}
-	
-	public synchronized boolean tousSurPiste(){
+
+	/**
+	 * Si tout le monde est sur la piste renvoie true
+	 * 
+	 * @return
+	 */
+	public synchronized boolean tousSurPiste() {
 		boolean res = true;
-		for(Client c : clients){
+		for (Client c : clients) {
 			res = res && c.estSurLaPiste();
 		}
 		return res;
 	}
-	
-	public synchronized boolean personneSurPiste(){
+
+	/**
+	 * Si personne est sur la piste renvoie true
+	 * 
+	 * @return
+	 */
+	public synchronized boolean personneSurPiste() {
 		boolean res = false;
-		for(Client c : clients){
+		for (Client c : clients) {
 			res = res || c.estSurLaPiste();
 		}
 		return !res;
 	}
-	
-	public synchronized boolean tousjouer(){
+	/**
+	 * Si tout le monde a jouer renvoie true
+	 * @return
+	 */
+	public synchronized boolean tousjouer() {
 		boolean res = true;
-		for(Client c : clients){
+		for (Client c : clients) {
 			res = res && c.isJouer();
 		}
 		return res;
@@ -67,8 +104,8 @@ public class Groupe {
 	public synchronized void setNumPiste(int numPiste) {
 		this.numPiste = numPiste;
 	}
-	
-	public synchronized int pisteReservee(){
+
+	public synchronized int pisteReservee() {
 		return numPiste;
 	}
 
@@ -76,5 +113,4 @@ public class Groupe {
 		return nom;
 	}
 
-	
 }

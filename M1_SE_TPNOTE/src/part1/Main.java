@@ -1,8 +1,8 @@
 package part1;
-
+//@mail: benjamin.rouxel@inria.fr
 public class Main {
 	public static void main(String[] args) {
-		//@mail: benjamin.rouxel@inria.fr
+	
 		
 		Bowling b = new Bowling();
 		
@@ -14,6 +14,6 @@ public class Main {
 			th.start();
 		}
 		
-		//TODO: afficher stats;
+		
 	}
 }
