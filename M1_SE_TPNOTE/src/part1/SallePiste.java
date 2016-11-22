@@ -11,12 +11,12 @@ import java.util.List;
  */
 public class SallePiste {
 
-	private List<PisteBowling> pistes;;
-
+	private List<PisteBowling> pistes;
+	private int ticket;
 	public SallePiste() {
 		super();
 		this.pistes = new ArrayList<>();
-
+		ticket=0;
 		for (int i = 0; i < 3; i++) {
 			this.pistes.add(i, new PisteBowling(i));
 		}
@@ -28,12 +28,15 @@ public class SallePiste {
 	 * @param c
 	 */
 	public synchronized void prendrepiste(Client c) {
-		while (!pisteLibre() && c.getGroupe().pisteReservee() == -1) { // tant qu'il n'y a pas de piste libre et que je n'ai pas de piste attribué --> je danse
+		System.out.println();
+		// tant qu'il n'y a pas de piste libre et que je n'ai pas de piste attribué --> je danse
+		while ((c.getGroupe().pisteReservee() == -1 && c.getGroupe().getNum()!=ticket) ||  (!pisteLibre() && c.getGroupe().pisteReservee() == -1 && c.getGroupe().getNum()==ticket)) { 
 			danser(c);
-
+			
 		}
 
 		if (c.getGroupe().pisteReservee() == -1) { 	// si le groupe n'a pas de piste, un client du groupe prend une piste libre
+			ticket++;
 			int pisteLibre = quellePisteLibre();
 			System.out.println("La piste " + pisteLibre + " est libre , le client " + c.getNom() + "du groupe "
 					+ c.getGroupe().getNom() + " occupe cette piste");
@@ -78,8 +81,7 @@ public class SallePiste {
 		}
 		
 		notifyAll(); // notifie que tout le monde vient de jouer, on peut partir de ce bowling
-		System.out.println(
-				"Le client " + c.getNom() + " du groupe " + c.getGroupe().getNom() + " a fini du jouer au bowling");
+
 		p.quitter(c);
 
 		if (p.estLibre()) {

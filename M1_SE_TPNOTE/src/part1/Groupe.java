@@ -109,8 +109,13 @@ public class Groupe {
 		return numPiste;
 	}
 
-	public String getNom() {
+	public synchronized String getNom() {
 		return nom;
+	}
+	
+	public synchronized int getNum() {
+		
+		return Integer.parseInt(nom.replaceAll("G",""));
 	}
 
 }

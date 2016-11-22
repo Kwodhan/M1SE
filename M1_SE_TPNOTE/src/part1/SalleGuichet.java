@@ -1,46 +1,41 @@
 package part1;
 
+import java.util.ArrayList;
+
 public class SalleGuichet {
 	/**
 	 * Pointeur pour distribuer les groupes
 	 */
-	private Groupe groupe;
-	/**
-	 * nom du groupe distribuer
-	 */
-	private int k;
-	
+	public static Groupe groupe;
+
+	public ArrayList<Guichetier> guichets = new ArrayList<Guichetier>();
+
 	public SalleGuichet() {
-		
-		this.k=0;
-		this.groupe = new Groupe("G"+k);
+
+		SalleGuichet.groupe = new Groupe("G" + 0);
+		for (int i = 0; i < 3; i++) {
+			guichets.add(new Guichetier());
+		}
 	}
-	
-	/**
-	 * Inscription du client dans un groupe
-	 * @param c
-	 */
-	public synchronized void inscription(Client c){
-		System.out.println("Le client "+c.getNom() +" s'inscrit");
-		try {
-			Thread.sleep(100);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+
+	public synchronized void inscription(Client c) {
+
+		while (!guichetLibre()) { // tant qu'il n'y a pas de guichet libre on attend
+									
+
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
 		}
-		
-		
-		System.out.println("Le client "+c.getNom()+ " rejoind le groupe "+this.groupe.getNom());
-		this.groupe.addClient(c);
-		
-		if(this.groupe.isComplete()){ // quand le groupe est complet, on en crée un nouveau
-			System.out.println("Le groupe "+this.groupe.getNom()+ " est plein");
-			this.groupe = new Groupe("G"+(++k));
-		}
-		
-		
-		while(!c.getGroupe().isComplete()) { //Le client attend tant que le groupe g n'est pas complet
-		
+
+		quelleGuichetLibre().inscription(c);
+		notifyAll();// un guichet vient de se liberer
+		while (!c.getGroupe().isComplete()) { // Le client attend tant que le groupe g soit complet
+												
 			try {
 				wait();
 			} catch (InterruptedException e) {
@@ -48,23 +43,50 @@ public class SalleGuichet {
 				e.printStackTrace();
 			}
 		}
-		
-		notifyAll(); // notifie tout le monde que le groupe est complet
-		
+
+		notifyAll(); // notifie tout les membres du groupe que le groupe est complet
+
 	}
-	/**
-	 * Le client c paye 
-	 * @param c
-	 */
-	public synchronized void paiement(Client c){
-		
-		try {
-			Thread.sleep(100);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
+
+	public synchronized void paiement(Client c) {
+		while (!guichetLibre()) { // tant qu'il n'y a pas de guichet libre on attend
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
-		System.out.println("Le client "+c.getNom() +" de l'ancien groupe " +c.getGroupe().getNom()+ " paye");
+		quelleGuichetLibre().paiement(c);
+		notifyAll();// un guichet vient de se liberer
 	}
-	
-	
+
+	/**
+	 * Si il y a un guichet de libre renvoie true
+	 * 
+	 * @return
+	 */
+	public synchronized boolean guichetLibre() {
+		boolean res = false;
+		for (Guichetier p : guichets) {
+			res = res || p.estLibre();
+		}
+
+		return res;
+	}
+
+	/**
+	 * renvoie le guichetier libre
+	 * 
+	 * @return
+	 */
+	public synchronized Guichetier quelleGuichetLibre() {
+		for (int i = 0; i < this.guichets.size(); i++) {
+			if (this.guichets.get(i).estLibre())
+				return this.guichets.get(i);
+		}
+		return null;
+
+	}
+
 }
