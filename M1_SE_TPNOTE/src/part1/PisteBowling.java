@@ -51,7 +51,7 @@ public class PisteBowling {
 			estLibre = true;
 	}
 
-	public int getNumero() {
+	public synchronized int getNumero() {
 		return numero;
 	}
 
