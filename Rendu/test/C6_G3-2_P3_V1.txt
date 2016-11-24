@@ -1,0 +1,46 @@
+Client : c0 Groupe G0 Action : Inscrition 
+Client : c5 Groupe G0 Action : Inscrition 
+Le groupe G0 est plein
+Client : c5 Groupe G0 Action : Recevoir chaussure
+Client : c4 Groupe G1 Action : Inscrition 
+Client : c0 Groupe G0 Action : Recevoir chaussure
+Client : c3 Groupe G1 Action : Inscrition 
+Le groupe G1 est plein
+Client : c0 Groupe G0 Action : Prendre Piste 0
+Client : c5 Groupe G0 Action : Rejoindre Piste 0
+Client : c5 Groupe G0 Action : Jouer sur piste 0
+Client : c3 Groupe G1 Action : Recevoir chaussure
+Client : c2 Groupe G2 Action : Inscrition 
+Client : c4 Groupe G1 Action : Recevoir chaussure
+Client : c1 Groupe G2 Action : Inscrition 
+Le groupe G2 est plein
+Client : c2 Groupe G2 Action : Recevoir chaussure
+Client : c0 Groupe G0 Action : Jouer sur piste 0
+Client : c1 Groupe G2 Action : Recevoir chaussure
+Client : c4 Groupe G1 Action : Prendre Piste 1
+Client : c0 Groupe G0 Action : Quitter la piste 0
+Client : c5 Groupe G0 Action : Quitter la piste 0
+Client : c2 Groupe G2 Action : Prendre Piste 0
+Client : c1 Groupe G2 Action : Rejoindre Piste 0
+Client : c1 Groupe G2 Action : Jouer sur piste 0
+Client : c0 Groupe G0 Action : paiement 
+Client : c5 Groupe G0 Action : paiement 
+Client : c0 Groupe G0 Action : Rendre chaussure
+Client : c5 Groupe G0 Action : Rendre chaussure
+Client : c2 Groupe G2 Action : Jouer sur piste 0
+Client : c3 Groupe G1 Action : Rejoindre Piste 1
+Client : c3 Groupe G1 Action : Jouer sur piste 1
+Client : c1 Groupe G2 Action : Quitter la piste 0
+Client : c2 Groupe G2 Action : Quitter la piste 0
+Client : c1 Groupe G2 Action : paiement 
+Client : c2 Groupe G2 Action : paiement 
+Client : c1 Groupe G2 Action : Rendre chaussure
+Client : c2 Groupe G2 Action : Rendre chaussure
+Client : c4 Groupe G1 Action : Jouer sur piste 1
+Client : c4 Groupe G1 Action : Quitter la piste 1
+Client : c3 Groupe G1 Action : Quitter la piste 1
+Client : c4 Groupe G1 Action : paiement 
+Client : c3 Groupe G1 Action : paiement 
+Client : c4 Groupe G1 Action : Rendre chaussure
+Client : c3 Groupe G1 Action : Rendre chaussure
+

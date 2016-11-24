@@ -1,4 +1,4 @@
-package part1;
+package part2;
 /**
  * 
  * @author Antoine FEREY
@@ -71,8 +71,6 @@ public class Client implements Runnable {
 
 	public synchronized void quitterPiste() {
 		surPiste = false;
-
-		
 	}
 
 	public synchronized void jouer() {

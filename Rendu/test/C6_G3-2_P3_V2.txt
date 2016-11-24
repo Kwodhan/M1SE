@@ -1,0 +1,51 @@
+Client : c0 Groupe G0 Action : Inscrition sur le stand 0
+Le groupe G0 est plein
+Client : c3 Groupe G1 Action : Inscrition sur le stand 2
+Client : c1 Groupe G0 Action : Inscrition sur le stand 1
+Client : c5 Groupe G1 Action : Inscrition sur le stand 0
+Client : c0 Groupe G0 Action : Recevoir chaussure
+Le groupe G1 est plein
+Client : c4 Groupe G2 Action : Inscrition sur le stand 2
+Client : c2 Groupe G2 Action : Inscrition sur le stand 1
+Client : c3 Groupe G1 Action : Recevoir chaussure
+Client : c2 Groupe G2 Action : Recevoir chaussure
+Client : c4 Groupe G2 Action : Recevoir chaussure
+Groupe G2 Action : recevoir ticket 0
+Client : c4 Groupe G2 Action : Prendre Piste 0
+C'est le tour du ticket 1
+Client : c2 Groupe G2 Action : Rejoindre Piste 0
+Client : c4 Groupe G2 Action : Jouer sur piste 0
+Client : c5 Groupe G1 Action : Recevoir chaussure
+Groupe G1 Action : recevoir ticket 1
+Client : c1 Groupe G0 Action : Recevoir chaussure
+Client : c2 Groupe G2 Action : Jouer sur piste 0
+Client : c5 Groupe G1 Action : Prendre Piste 1
+C'est le tour du ticket 2
+Client : c2 Groupe G2 Action : Quitter la piste 0
+Client : c4 Groupe G2 Action : Quitter la piste 0
+Groupe G0 Action : recevoir ticket 2
+Client : c0 Groupe G0 Action : Prendre Piste 0
+C'est le tour du ticket 3
+Client : c1 Groupe G0 Action : Rejoindre Piste 0
+Client : c1 Groupe G0 Action : Jouer sur piste 0
+Client : c2 Groupe G2 Action : paiement sur le stand 2
+Client : c4 Groupe G2 Action : paiement sur le stand 2
+Client : c2 Groupe G2 Action : Rendre chaussure
+Client : c4 Groupe G2 Action : Rendre chaussure
+Client : c0 Groupe G0 Action : Jouer sur piste 0
+Client : c3 Groupe G1 Action : Rejoindre Piste 1
+Client : c3 Groupe G1 Action : Jouer sur piste 1
+Client : c1 Groupe G0 Action : Quitter la piste 0
+Client : c0 Groupe G0 Action : Quitter la piste 0
+Client : c1 Groupe G0 Action : paiement sur le stand 0
+Client : c0 Groupe G0 Action : paiement sur le stand 2
+Client : c1 Groupe G0 Action : Rendre chaussure
+Client : c0 Groupe G0 Action : Rendre chaussure
+Client : c5 Groupe G1 Action : Jouer sur piste 1
+Client : c5 Groupe G1 Action : Quitter la piste 1
+Client : c3 Groupe G1 Action : Quitter la piste 1
+Client : c5 Groupe G1 Action : paiement sur le stand 0
+Client : c3 Groupe G1 Action : paiement sur le stand 2
+Client : c5 Groupe G1 Action : Rendre chaussure
+Client : c3 Groupe G1 Action : Rendre chaussure
+

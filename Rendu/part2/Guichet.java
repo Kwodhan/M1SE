@@ -1,6 +1,10 @@
 package part2;
-
-public class Guichetier {
+/**
+ * 
+ * @author Antoine FEREY
+ *
+ */
+public class Guichet {
 
 	/**
 	 * Pointeur pour distribuer les groupes
@@ -15,10 +19,10 @@ public class Guichetier {
 	 */
 	private final int num;
 
-	public Guichetier(int num) {
+	public Guichet(int num) {
 
-		Guichetier.k = 0;
-		Guichetier.groupe = new Groupe("G" + 0);
+		Guichet.k = 0;
+		Guichet.groupe = new Groupe("G" + 0);
 		this.num = num;
 	}
 
@@ -36,7 +40,7 @@ public class Guichetier {
 			e.printStackTrace();
 		}
 
-		Guichetier.add(c);
+		Guichet.add(c);
 
 		System.out.println("Client : " + c.getNom() + " Groupe " + c.getGroupe().getNom()
 				+ " Action : Inscrition sur le stand " + this.num);
@@ -64,12 +68,12 @@ public class Guichetier {
 	 * Operation static pour ajouter des clients
 	 */
 	public static synchronized void add(Client c) {
-		if (Guichetier.groupe.isComplete()) {
-			System.out.println("Le groupe " + Guichetier.groupe.getNom() + " est plein");
-			Guichetier.k++;
-			Guichetier.groupe = new Groupe("G" + (Guichetier.k));
+		if (Guichet.groupe.isComplete()) {
+			System.out.println("Le groupe " + Guichet.groupe.getNom() + " est plein");
+			Guichet.k++;
+			Guichet.groupe = new Groupe("G" + (Guichet.k));
 		}
-		Guichetier.groupe.addClient(c);
+		Guichet.groupe.addClient(c);
 	}
 
 }

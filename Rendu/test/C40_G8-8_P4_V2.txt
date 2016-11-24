@@ -1,0 +1,614 @@
+Client : c0 Groupe G0 Action : Inscrition sur le stand 1
+Client : c6 Groupe G0 Action : Inscrition sur le stand 2
+Client : c5 Groupe G0 Action : Inscrition sur le stand 0
+Client : c62 Groupe G0 Action : Inscrition sur le stand 1
+Le groupe G0 est plein
+Client : c57 Groupe G1 Action : Inscrition sur le stand 2
+Client : c63 Groupe G1 Action : Inscrition sur le stand 0
+Client : c60 Groupe G1 Action : Inscrition sur le stand 1
+Client : c5 Groupe G0 Action : Recevoir chaussure
+Client : c53 Groupe G1 Action : Inscrition sur le stand 2
+Le groupe G1 est plein
+Client : c61 Groupe G2 Action : Inscrition sur le stand 0
+Client : c60 Groupe G1 Action : Recevoir chaussure
+Client : c56 Groupe G2 Action : Inscrition sur le stand 1
+Client : c46 Groupe G2 Action : Inscrition sur le stand 2
+Client : c59 Groupe G2 Action : Inscrition sur le stand 0
+Client : c62 Groupe G0 Action : Recevoir chaussure
+Le groupe G2 est plein
+Client : c50 Groupe G3 Action : Inscrition sur le stand 1
+Client : c41 Groupe G3 Action : Inscrition sur le stand 2
+Client : c58 Groupe G3 Action : Inscrition sur le stand 0
+Client : c0 Groupe G0 Action : Recevoir chaussure
+Client : c49 Groupe G3 Action : Inscrition sur le stand 1
+Le groupe G3 est plein
+Client : c37 Groupe G4 Action : Inscrition sur le stand 2
+Client : c55 Groupe G4 Action : Inscrition sur le stand 0
+Client : c6 Groupe G0 Action : Recevoir chaussure
+Client : c44 Groupe G4 Action : Inscrition sur le stand 1
+Groupe G0 Action : recevoir ticket 0
+Client : c6 Groupe G0 Action : Prendre Piste 0
+C'est le tour du ticket 1
+Client : c5 Groupe G0 Action : Rejoindre Piste 0
+Client : c62 Groupe G0 Action : Rejoindre Piste 0
+Client : c34 Groupe G4 Action : Inscrition sur le stand 2
+Client : c0 Groupe G0 Action : Rejoindre Piste 0
+Client : c0 Groupe G0 Action : Jouer sur piste 0
+Le groupe G4 est plein
+Client : c54 Groupe G5 Action : Inscrition sur le stand 0
+Client : c50 Groupe G3 Action : Recevoir chaussure
+Client : c43 Groupe G5 Action : Inscrition sur le stand 1
+Client : c33 Groupe G5 Action : Inscrition sur le stand 2
+Client : c52 Groupe G5 Action : Inscrition sur le stand 0
+Client : c41 Groupe G3 Action : Recevoir chaussure
+Le groupe G5 est plein
+Client : c42 Groupe G6 Action : Inscrition sur le stand 1
+Client : c29 Groupe G6 Action : Inscrition sur le stand 2
+Client : c51 Groupe G6 Action : Inscrition sur le stand 0
+Client : c58 Groupe G3 Action : Recevoir chaussure
+Client : c40 Groupe G6 Action : Inscrition sur le stand 1
+Le groupe G6 est plein
+Client : c28 Groupe G7 Action : Inscrition sur le stand 2
+Client : c48 Groupe G7 Action : Inscrition sur le stand 0
+Client : c49 Groupe G3 Action : Recevoir chaussure
+Groupe G3 Action : recevoir ticket 1
+Client : c38 Groupe G7 Action : Inscrition sur le stand 1
+Client : c49 Groupe G3 Action : Prendre Piste 1
+C'est le tour du ticket 2
+Client : c6 Groupe G0 Action : Jouer sur piste 0
+Client : c27 Groupe G7 Action : Inscrition sur le stand 2
+Le groupe G7 est plein
+Client : c47 Groupe G8 Action : Inscrition sur le stand 0
+Client : c59 Groupe G2 Action : Recevoir chaussure
+Client : c32 Groupe G8 Action : Inscrition sur le stand 1
+Client : c26 Groupe G8 Action : Inscrition sur le stand 2
+Client : c45 Groupe G8 Action : Inscrition sur le stand 0
+Client : c61 Groupe G2 Action : Recevoir chaussure
+Le groupe G8 est plein
+Client : c31 Groupe G9 Action : Inscrition sur le stand 1
+Client : c24 Groupe G9 Action : Inscrition sur le stand 2
+Client : c39 Groupe G9 Action : Inscrition sur le stand 0
+Client : c56 Groupe G2 Action : Recevoir chaussure
+Client : c25 Groupe G9 Action : Inscrition sur le stand 1
+Le groupe G9 est plein
+Client : c23 Groupe G10 Action : Inscrition sur le stand 2
+Client : c36 Groupe G10 Action : Inscrition sur le stand 0
+Client : c46 Groupe G2 Action : Recevoir chaussure
+Client : c5 Groupe G0 Action : Jouer sur piste 0
+Client : c21 Groupe G10 Action : Inscrition sur le stand 1
+Le groupe G10 est plein
+Client : c22 Groupe G10 Action : Inscrition sur le stand 2
+Client : c35 Groupe G11 Action : Inscrition sur le stand 0
+Client : c57 Groupe G1 Action : Recevoir chaussure
+Client : c17 Groupe G11 Action : Inscrition sur le stand 1
+Client : c19 Groupe G11 Action : Inscrition sur le stand 2
+Client : c30 Groupe G11 Action : Inscrition sur le stand 0
+Client : c63 Groupe G1 Action : Recevoir chaussure
+Le groupe G11 est plein
+Client : c15 Groupe G12 Action : Inscrition sur le stand 1
+Client : c18 Groupe G12 Action : Inscrition sur le stand 2
+Client : c20 Groupe G12 Action : Inscrition sur le stand 0
+Client : c53 Groupe G1 Action : Recevoir chaussure
+Client : c9 Groupe G12 Action : Inscrition sur le stand 1
+Le groupe G12 est plein
+Client : c12 Groupe G13 Action : Inscrition sur le stand 2
+Client : c16 Groupe G13 Action : Inscrition sur le stand 0
+Client : c62 Groupe G0 Action : Jouer sur piste 0
+Client : c30 Groupe G11 Action : Recevoir chaussure
+Client : c4 Groupe G13 Action : Inscrition sur le stand 1
+Client : c8 Groupe G13 Action : Inscrition sur le stand 2
+Le groupe G13 est plein
+Client : c14 Groupe G14 Action : Inscrition sur le stand 0
+Client : c35 Groupe G11 Action : Recevoir chaussure
+Client : c3 Groupe G14 Action : Inscrition sur le stand 1
+Client : c13 Groupe G14 Action : Inscrition sur le stand 0
+Client : c17 Groupe G11 Action : Recevoir chaussure
+Client : c2 Groupe G14 Action : Inscrition sur le stand 1
+Le groupe G14 est plein
+Client : c11 Groupe G15 Action : Inscrition sur le stand 0
+Client : c19 Groupe G11 Action : Recevoir chaussure
+Client : c1 Groupe G15 Action : Inscrition sur le stand 1
+Client : c10 Groupe G15 Action : Inscrition sur le stand 0
+Client : c50 Groupe G3 Action : Rejoindre Piste 1
+Client : c41 Groupe G3 Action : Rejoindre Piste 1
+Client : c58 Groupe G3 Action : Rejoindre Piste 1
+Client : c58 Groupe G3 Action : Jouer sur piste 1
+Client : c0 Groupe G0 Action : Quitter la piste 0
+Client : c6 Groupe G0 Action : Quitter la piste 0
+Client : c5 Groupe G0 Action : Quitter la piste 0
+Client : c62 Groupe G0 Action : Quitter la piste 0
+Groupe G11 Action : recevoir ticket 2
+Client : c30 Groupe G11 Action : Prendre Piste 0
+C'est le tour du ticket 3
+Client : c22 Groupe G10 Action : Recevoir chaussure
+Client : c7 Groupe G15 Action : Inscrition sur le stand 0
+Client : c0 Groupe G0 Action : paiement sur le stand 1
+Client : c6 Groupe G0 Action : paiement sur le stand 2
+Client : c23 Groupe G10 Action : Recevoir chaussure
+Client : c62 Groupe G0 Action : paiement sur le stand 2
+Client : c36 Groupe G10 Action : Recevoir chaussure
+Client : c5 Groupe G0 Action : paiement sur le stand 2
+Client : c21 Groupe G10 Action : Recevoir chaussure
+Client : c35 Groupe G11 Action : Rejoindre Piste 0
+Client : c49 Groupe G3 Action : Jouer sur piste 1
+Client : c31 Groupe G9 Action : Recevoir chaussure
+Client : c24 Groupe G9 Action : Recevoir chaussure
+Client : c39 Groupe G9 Action : Recevoir chaussure
+Client : c25 Groupe G9 Action : Recevoir chaussure
+Client : c50 Groupe G3 Action : Jouer sur piste 1
+Client : c47 Groupe G8 Action : Recevoir chaussure
+Client : c32 Groupe G8 Action : Recevoir chaussure
+Client : c26 Groupe G8 Action : Recevoir chaussure
+Client : c45 Groupe G8 Action : Recevoir chaussure
+Client : c41 Groupe G3 Action : Jouer sur piste 1
+Client : c28 Groupe G7 Action : Recevoir chaussure
+Client : c48 Groupe G7 Action : Recevoir chaussure
+Client : c38 Groupe G7 Action : Recevoir chaussure
+Client : c27 Groupe G7 Action : Recevoir chaussure
+Client : c17 Groupe G11 Action : Rejoindre Piste 0
+Client : c19 Groupe G11 Action : Rejoindre Piste 0
+Client : c19 Groupe G11 Action : Jouer sur piste 0
+Groupe G1 Action : recevoir ticket 3
+Client : c42 Groupe G6 Action : Recevoir chaussure
+Client : c29 Groupe G6 Action : Recevoir chaussure
+Client : c51 Groupe G6 Action : Recevoir chaussure
+Client : c40 Groupe G6 Action : Recevoir chaussure
+Client : c30 Groupe G11 Action : Jouer sur piste 0
+Client : c54 Groupe G5 Action : Recevoir chaussure
+Client : c43 Groupe G5 Action : Recevoir chaussure
+Client : c33 Groupe G5 Action : Recevoir chaussure
+Client : c52 Groupe G5 Action : Recevoir chaussure
+Client : c35 Groupe G11 Action : Jouer sur piste 0
+Client : c37 Groupe G4 Action : Recevoir chaussure
+Client : c55 Groupe G4 Action : Recevoir chaussure
+Client : c44 Groupe G4 Action : Recevoir chaussure
+Client : c34 Groupe G4 Action : Recevoir chaussure
+Client : c60 Groupe G1 Action : Prendre Piste 2
+C'est le tour du ticket 4
+Client : c17 Groupe G11 Action : Jouer sur piste 0
+Client : c5 Groupe G0 Action : Rendre chaussure
+Client : c62 Groupe G0 Action : Rendre chaussure
+Client : c6 Groupe G0 Action : Rendre chaussure
+Client : c0 Groupe G0 Action : Rendre chaussure
+Client : c57 Groupe G1 Action : Rejoindre Piste 2
+Client : c63 Groupe G1 Action : Rejoindre Piste 2
+Client : c53 Groupe G1 Action : Rejoindre Piste 2
+Client : c53 Groupe G1 Action : Jouer sur piste 2
+Groupe G2 Action : recevoir ticket 4
+Client : c11 Groupe G15 Action : Recevoir chaussure
+Client : c1 Groupe G15 Action : Recevoir chaussure
+Client : c10 Groupe G15 Action : Recevoir chaussure
+Client : c7 Groupe G15 Action : Recevoir chaussure
+Client : c60 Groupe G1 Action : Jouer sur piste 2
+Client : c14 Groupe G14 Action : Recevoir chaussure
+Client : c3 Groupe G14 Action : Recevoir chaussure
+Client : c13 Groupe G14 Action : Recevoir chaussure
+Client : c2 Groupe G14 Action : Recevoir chaussure
+Client : c57 Groupe G1 Action : Jouer sur piste 2
+Client : c12 Groupe G13 Action : Recevoir chaussure
+Client : c16 Groupe G13 Action : Recevoir chaussure
+Client : c4 Groupe G13 Action : Recevoir chaussure
+Client : c8 Groupe G13 Action : Recevoir chaussure
+Client : c63 Groupe G1 Action : Jouer sur piste 2
+Client : c15 Groupe G12 Action : Recevoir chaussure
+Client : c18 Groupe G12 Action : Recevoir chaussure
+Client : c20 Groupe G12 Action : Recevoir chaussure
+Client : c9 Groupe G12 Action : Recevoir chaussure
+Client : c59 Groupe G2 Action : Prendre Piste 3
+C'est le tour du ticket 5
+Client : c61 Groupe G2 Action : Rejoindre Piste 3
+Client : c56 Groupe G2 Action : Rejoindre Piste 3
+Client : c46 Groupe G2 Action : Rejoindre Piste 3
+Client : c53 Groupe G1 Action : Quitter la piste 2
+Client : c46 Groupe G2 Action : Jouer sur piste 3
+Client : c57 Groupe G1 Action : Quitter la piste 2
+Client : c60 Groupe G1 Action : Quitter la piste 2
+Client : c63 Groupe G1 Action : Quitter la piste 2
+Groupe G12 Action : recevoir ticket 5
+Client : c15 Groupe G12 Action : Prendre Piste 2
+C'est le tour du ticket 6
+Client : c53 Groupe G1 Action : paiement sur le stand 0
+Client : c57 Groupe G1 Action : paiement sur le stand 1
+Client : c60 Groupe G1 Action : paiement sur le stand 2
+Client : c53 Groupe G1 Action : Rendre chaussure
+Client : c63 Groupe G1 Action : paiement sur le stand 2
+Client : c60 Groupe G1 Action : Rendre chaussure
+Client : c18 Groupe G12 Action : Rejoindre Piste 2
+Client : c59 Groupe G2 Action : Jouer sur piste 3
+Client : c57 Groupe G1 Action : Rendre chaussure
+Client : c63 Groupe G1 Action : Rendre chaussure
+Client : c61 Groupe G2 Action : Jouer sur piste 3
+Client : c56 Groupe G2 Action : Jouer sur piste 3
+Client : c20 Groupe G12 Action : Rejoindre Piste 2
+Client : c46 Groupe G2 Action : Quitter la piste 3
+Client : c9 Groupe G12 Action : Rejoindre Piste 2
+Client : c9 Groupe G12 Action : Jouer sur piste 2
+Groupe G13 Action : recevoir ticket 6
+Client : c46 Groupe G2 Action : paiement sur le stand 1
+Client : c46 Groupe G2 Action : Rendre chaussure
+Client : c15 Groupe G12 Action : Jouer sur piste 2
+Client : c12 Groupe G13 Action : Danser
+Client : c18 Groupe G12 Action : Jouer sur piste 2
+Client : c20 Groupe G12 Action : Jouer sur piste 2
+Client : c16 Groupe G13 Action : Danser
+Client : c4 Groupe G13 Action : Danser
+Client : c8 Groupe G13 Action : Danser
+Groupe G14 Action : recevoir ticket 7
+Client : c14 Groupe G14 Action : Danser
+Client : c3 Groupe G14 Action : Danser
+Client : c13 Groupe G14 Action : Danser
+Client : c2 Groupe G14 Action : Danser
+Groupe G15 Action : recevoir ticket 8
+Client : c11 Groupe G15 Action : Danser
+Client : c1 Groupe G15 Action : Danser
+Client : c10 Groupe G15 Action : Danser
+Client : c7 Groupe G15 Action : Danser
+Client : c19 Groupe G11 Action : Quitter la piste 0
+Client : c35 Groupe G11 Action : Quitter la piste 0
+Client : c30 Groupe G11 Action : Quitter la piste 0
+Client : c17 Groupe G11 Action : Quitter la piste 0
+Groupe G4 Action : recevoir ticket 9
+Client : c37 Groupe G4 Action : Danser
+Client : c55 Groupe G4 Action : Danser
+Client : c44 Groupe G4 Action : Danser
+Client : c34 Groupe G4 Action : Danser
+Groupe G5 Action : recevoir ticket 10
+Client : c54 Groupe G5 Action : Danser
+Client : c43 Groupe G5 Action : Danser
+Client : c33 Groupe G5 Action : Danser
+Client : c52 Groupe G5 Action : Danser
+Groupe G6 Action : recevoir ticket 11
+Client : c42 Groupe G6 Action : Danser
+Client : c29 Groupe G6 Action : Danser
+Client : c51 Groupe G6 Action : Danser
+Client : c40 Groupe G6 Action : Danser
+Client : c58 Groupe G3 Action : Quitter la piste 1
+Client : c49 Groupe G3 Action : Quitter la piste 1
+Client : c50 Groupe G3 Action : Quitter la piste 1
+Client : c41 Groupe G3 Action : Quitter la piste 1
+Groupe G7 Action : recevoir ticket 12
+Client : c28 Groupe G7 Action : Danser
+Client : c48 Groupe G7 Action : Danser
+Client : c38 Groupe G7 Action : Danser
+Client : c27 Groupe G7 Action : Danser
+Groupe G8 Action : recevoir ticket 13
+Client : c47 Groupe G8 Action : Danser
+Client : c32 Groupe G8 Action : Danser
+Client : c26 Groupe G8 Action : Danser
+Client : c45 Groupe G8 Action : Danser
+Groupe G9 Action : recevoir ticket 14
+Client : c31 Groupe G9 Action : Danser
+Client : c24 Groupe G9 Action : Danser
+Client : c39 Groupe G9 Action : Danser
+Client : c25 Groupe G9 Action : Danser
+Groupe G10 Action : recevoir ticket 15
+Client : c22 Groupe G10 Action : Danser
+Client : c23 Groupe G10 Action : Danser
+Client : c36 Groupe G10 Action : Danser
+Client : c21 Groupe G10 Action : Danser
+Client : c40 Groupe G6 Action : Danser
+Client : c51 Groupe G6 Action : Danser
+Client : c29 Groupe G6 Action : Danser
+Client : c42 Groupe G6 Action : Danser
+Client : c52 Groupe G5 Action : Danser
+Client : c33 Groupe G5 Action : Danser
+Client : c43 Groupe G5 Action : Danser
+Client : c54 Groupe G5 Action : Danser
+Client : c34 Groupe G4 Action : Danser
+Client : c44 Groupe G4 Action : Danser
+Client : c55 Groupe G4 Action : Danser
+Client : c37 Groupe G4 Action : Danser
+Client : c7 Groupe G15 Action : Danser
+Client : c10 Groupe G15 Action : Danser
+Client : c1 Groupe G15 Action : Danser
+Client : c11 Groupe G15 Action : Danser
+Client : c2 Groupe G14 Action : Danser
+Client : c13 Groupe G14 Action : Danser
+Client : c3 Groupe G14 Action : Danser
+Client : c14 Groupe G14 Action : Danser
+Client : c8 Groupe G13 Action : Prendre Piste 0
+C'est le tour du ticket 7
+Client : c4 Groupe G13 Action : Rejoindre Piste 0
+Client : c16 Groupe G13 Action : Rejoindre Piste 0
+Client : c12 Groupe G13 Action : Rejoindre Piste 0
+Client : c12 Groupe G13 Action : Jouer sur piste 0
+Client : c9 Groupe G12 Action : Quitter la piste 2
+Client : c15 Groupe G12 Action : Quitter la piste 2
+Client : c18 Groupe G12 Action : Quitter la piste 2
+Client : c20 Groupe G12 Action : Quitter la piste 2
+Client : c59 Groupe G2 Action : Quitter la piste 3
+Client : c61 Groupe G2 Action : Quitter la piste 3
+Client : c56 Groupe G2 Action : Quitter la piste 3
+Client : c19 Groupe G11 Action : paiement sur le stand 0
+Client : c35 Groupe G11 Action : paiement sur le stand 1
+Client : c50 Groupe G3 Action : paiement sur le stand 2
+Client : c19 Groupe G11 Action : Rendre chaussure
+Client : c18 Groupe G12 Action : paiement sur le stand 1
+Client : c56 Groupe G2 Action : paiement sur le stand 0
+Client : c61 Groupe G2 Action : paiement sur le stand 2
+Client : c18 Groupe G12 Action : Rendre chaussure
+Client : c17 Groupe G11 Action : paiement sur le stand 1
+Client : c59 Groupe G2 Action : paiement sur le stand 0
+Client : c9 Groupe G12 Action : paiement sur le stand 2
+Client : c50 Groupe G3 Action : Rendre chaussure
+Client : c20 Groupe G12 Action : paiement sur le stand 0
+Client : c41 Groupe G3 Action : paiement sur le stand 2
+Client : c14 Groupe G14 Action : Prendre Piste 1
+C'est le tour du ticket 8
+Client : c8 Groupe G13 Action : Jouer sur piste 0
+Client : c35 Groupe G11 Action : Rendre chaussure
+Client : c15 Groupe G12 Action : paiement sur le stand 0
+Client : c15 Groupe G12 Action : Rendre chaussure
+Client : c49 Groupe G3 Action : paiement sur le stand 0
+Client : c41 Groupe G3 Action : Rendre chaussure
+Client : c58 Groupe G3 Action : paiement sur le stand 0
+Client : c20 Groupe G12 Action : Rendre chaussure
+Client : c30 Groupe G11 Action : paiement sur le stand 0
+Client : c4 Groupe G13 Action : Jouer sur piste 0
+Client : c9 Groupe G12 Action : Rendre chaussure
+Client : c59 Groupe G2 Action : Rendre chaussure
+Client : c17 Groupe G11 Action : Rendre chaussure
+Client : c61 Groupe G2 Action : Rendre chaussure
+Client : c16 Groupe G13 Action : Jouer sur piste 0
+Client : c56 Groupe G2 Action : Rendre chaussure
+Client : c30 Groupe G11 Action : Rendre chaussure
+Client : c58 Groupe G3 Action : Rendre chaussure
+Client : c49 Groupe G3 Action : Rendre chaussure
+Client : c3 Groupe G14 Action : Rejoindre Piste 1
+Client : c13 Groupe G14 Action : Rejoindre Piste 1
+Client : c2 Groupe G14 Action : Rejoindre Piste 1
+Client : c2 Groupe G14 Action : Jouer sur piste 1
+Client : c14 Groupe G14 Action : Jouer sur piste 1
+Client : c3 Groupe G14 Action : Jouer sur piste 1
+Client : c13 Groupe G14 Action : Jouer sur piste 1
+Client : c11 Groupe G15 Action : Prendre Piste 2
+C'est le tour du ticket 9
+Client : c1 Groupe G15 Action : Rejoindre Piste 2
+Client : c10 Groupe G15 Action : Rejoindre Piste 2
+Client : c7 Groupe G15 Action : Rejoindre Piste 2
+Client : c7 Groupe G15 Action : Jouer sur piste 2
+Client : c11 Groupe G15 Action : Jouer sur piste 2
+Client : c1 Groupe G15 Action : Jouer sur piste 2
+Client : c10 Groupe G15 Action : Jouer sur piste 2
+Client : c37 Groupe G4 Action : Prendre Piste 3
+C'est le tour du ticket 10
+Client : c55 Groupe G4 Action : Rejoindre Piste 3
+Client : c44 Groupe G4 Action : Rejoindre Piste 3
+Client : c34 Groupe G4 Action : Rejoindre Piste 3
+Client : c34 Groupe G4 Action : Jouer sur piste 3
+Client : c37 Groupe G4 Action : Jouer sur piste 3
+Client : c55 Groupe G4 Action : Jouer sur piste 3
+Client : c54 Groupe G5 Action : Danser
+Client : c44 Groupe G4 Action : Jouer sur piste 3
+Client : c43 Groupe G5 Action : Danser
+Client : c34 Groupe G4 Action : Quitter la piste 3
+Client : c33 Groupe G5 Action : Danser
+Client : c52 Groupe G5 Action : Danser
+Client : c42 Groupe G6 Action : Danser
+Client : c29 Groupe G6 Action : Danser
+Client : c51 Groupe G6 Action : Danser
+Client : c40 Groupe G6 Action : Danser
+Client : c21 Groupe G10 Action : Danser
+Client : c36 Groupe G10 Action : Danser
+Client : c23 Groupe G10 Action : Danser
+Client : c22 Groupe G10 Action : Danser
+Client : c25 Groupe G9 Action : Danser
+Client : c39 Groupe G9 Action : Danser
+Client : c24 Groupe G9 Action : Danser
+Client : c31 Groupe G9 Action : Danser
+Client : c45 Groupe G8 Action : Danser
+Client : c26 Groupe G8 Action : Danser
+Client : c32 Groupe G8 Action : Danser
+Client : c47 Groupe G8 Action : Danser
+Client : c27 Groupe G7 Action : Danser
+Client : c38 Groupe G7 Action : Danser
+Client : c48 Groupe G7 Action : Danser
+Client : c28 Groupe G7 Action : Danser
+Client : c43 Groupe G5 Action : Danser
+Client : c54 Groupe G5 Action : Danser
+Client : c37 Groupe G4 Action : Quitter la piste 3
+Client : c55 Groupe G4 Action : Quitter la piste 3
+Client : c44 Groupe G4 Action : Quitter la piste 3
+Client : c7 Groupe G15 Action : Quitter la piste 2
+Client : c11 Groupe G15 Action : Quitter la piste 2
+Client : c1 Groupe G15 Action : Quitter la piste 2
+Client : c10 Groupe G15 Action : Quitter la piste 2
+Client : c2 Groupe G14 Action : Quitter la piste 1
+Client : c3 Groupe G14 Action : Quitter la piste 1
+Client : c14 Groupe G14 Action : Quitter la piste 1
+Client : c13 Groupe G14 Action : Quitter la piste 1
+Client : c12 Groupe G13 Action : Quitter la piste 0
+Client : c8 Groupe G13 Action : Quitter la piste 0
+Client : c4 Groupe G13 Action : Quitter la piste 0
+Client : c16 Groupe G13 Action : Quitter la piste 0
+Client : c54 Groupe G5 Action : Prendre Piste 0
+C'est le tour du ticket 11
+Client : c43 Groupe G5 Action : Rejoindre Piste 0
+Client : c28 Groupe G7 Action : Danser
+Client : c48 Groupe G7 Action : Danser
+Client : c38 Groupe G7 Action : Danser
+Client : c27 Groupe G7 Action : Danser
+Client : c47 Groupe G8 Action : Danser
+Client : c32 Groupe G8 Action : Danser
+Client : c26 Groupe G8 Action : Danser
+Client : c45 Groupe G8 Action : Danser
+Client : c31 Groupe G9 Action : Danser
+Client : c24 Groupe G9 Action : Danser
+Client : c39 Groupe G9 Action : Danser
+Client : c25 Groupe G9 Action : Danser
+Client : c22 Groupe G10 Action : Danser
+Client : c23 Groupe G10 Action : Danser
+Client : c36 Groupe G10 Action : Danser
+Client : c21 Groupe G10 Action : Danser
+Client : c40 Groupe G6 Action : Prendre Piste 1
+C'est le tour du ticket 12
+Client : c51 Groupe G6 Action : Rejoindre Piste 1
+Client : c29 Groupe G6 Action : Rejoindre Piste 1
+Client : c42 Groupe G6 Action : Rejoindre Piste 1
+Client : c42 Groupe G6 Action : Jouer sur piste 1
+Client : c34 Groupe G4 Action : paiement sur le stand 0
+Client : c37 Groupe G4 Action : paiement sur le stand 1
+Client : c3 Groupe G14 Action : paiement sur le stand 2
+Client : c34 Groupe G4 Action : Rendre chaussure
+Client : c16 Groupe G13 Action : paiement sur le stand 0
+Client : c8 Groupe G13 Action : paiement sur le stand 1
+Client : c12 Groupe G13 Action : paiement sur le stand 2
+Client : c16 Groupe G13 Action : Rendre chaussure
+Client : c4 Groupe G13 Action : paiement sur le stand 0
+Client : c2 Groupe G14 Action : paiement sur le stand 1
+Client : c13 Groupe G14 Action : paiement sur le stand 2
+Client : c3 Groupe G14 Action : Rendre chaussure
+Client : c10 Groupe G15 Action : paiement sur le stand 0
+Client : c11 Groupe G15 Action : paiement sur le stand 1
+Client : c14 Groupe G14 Action : paiement sur le stand 2
+Client : c52 Groupe G5 Action : Rejoindre Piste 0
+Client : c40 Groupe G6 Action : Jouer sur piste 1
+Client : c37 Groupe G4 Action : Rendre chaussure
+Client : c1 Groupe G15 Action : paiement sur le stand 0
+Client : c7 Groupe G15 Action : paiement sur le stand 1
+Client : c14 Groupe G14 Action : Rendre chaussure
+Client : c44 Groupe G4 Action : paiement sur le stand 0
+Client : c44 Groupe G4 Action : Rendre chaussure
+Client : c55 Groupe G4 Action : paiement sur le stand 0
+Client : c55 Groupe G4 Action : Rendre chaussure
+Client : c51 Groupe G6 Action : Jouer sur piste 1
+Client : c11 Groupe G15 Action : Rendre chaussure
+Client : c10 Groupe G15 Action : Rendre chaussure
+Client : c13 Groupe G14 Action : Rendre chaussure
+Client : c2 Groupe G14 Action : Rendre chaussure
+Client : c29 Groupe G6 Action : Jouer sur piste 1
+Client : c4 Groupe G13 Action : Rendre chaussure
+Client : c12 Groupe G13 Action : Rendre chaussure
+Client : c8 Groupe G13 Action : Rendre chaussure
+Client : c7 Groupe G15 Action : Rendre chaussure
+Client : c33 Groupe G5 Action : Rejoindre Piste 0
+Client : c40 Groupe G6 Action : Quitter la piste 1
+Client : c33 Groupe G5 Action : Jouer sur piste 0
+Client : c51 Groupe G6 Action : Quitter la piste 1
+Client : c29 Groupe G6 Action : Quitter la piste 1
+Client : c21 Groupe G10 Action : Danser
+Client : c36 Groupe G10 Action : Danser
+Client : c23 Groupe G10 Action : Danser
+Client : c22 Groupe G10 Action : Danser
+Client : c25 Groupe G9 Action : Danser
+Client : c39 Groupe G9 Action : Danser
+Client : c24 Groupe G9 Action : Danser
+Client : c31 Groupe G9 Action : Danser
+Client : c45 Groupe G8 Action : Danser
+Client : c26 Groupe G8 Action : Danser
+Client : c32 Groupe G8 Action : Danser
+Client : c47 Groupe G8 Action : Danser
+Client : c1 Groupe G15 Action : Rendre chaussure
+Client : c40 Groupe G6 Action : paiement sur le stand 2
+Client : c51 Groupe G6 Action : paiement sur le stand 0
+Client : c29 Groupe G6 Action : paiement sur le stand 0
+Client : c40 Groupe G6 Action : Rendre chaussure
+Client : c29 Groupe G6 Action : Rendre chaussure
+Client : c54 Groupe G5 Action : Jouer sur piste 0
+Client : c51 Groupe G6 Action : Rendre chaussure
+Client : c43 Groupe G5 Action : Jouer sur piste 0
+Client : c52 Groupe G5 Action : Jouer sur piste 0
+Client : c27 Groupe G7 Action : Prendre Piste 2
+C'est le tour du ticket 13
+Client : c38 Groupe G7 Action : Rejoindre Piste 2
+Client : c48 Groupe G7 Action : Rejoindre Piste 2
+Client : c28 Groupe G7 Action : Rejoindre Piste 2
+Client : c28 Groupe G7 Action : Jouer sur piste 2
+Client : c42 Groupe G6 Action : Quitter la piste 1
+Client : c47 Groupe G8 Action : Prendre Piste 1
+C'est le tour du ticket 14
+Client : c42 Groupe G6 Action : paiement sur le stand 1
+Client : c42 Groupe G6 Action : Rendre chaussure
+Client : c27 Groupe G7 Action : Jouer sur piste 2
+Client : c38 Groupe G7 Action : Jouer sur piste 2
+Client : c32 Groupe G8 Action : Rejoindre Piste 1
+Client : c48 Groupe G7 Action : Jouer sur piste 2
+Client : c26 Groupe G8 Action : Rejoindre Piste 1
+Client : c45 Groupe G8 Action : Rejoindre Piste 1
+Client : c45 Groupe G8 Action : Jouer sur piste 1
+Client : c47 Groupe G8 Action : Jouer sur piste 1
+Client : c32 Groupe G8 Action : Jouer sur piste 1
+Client : c26 Groupe G8 Action : Jouer sur piste 1
+Client : c31 Groupe G9 Action : Prendre Piste 3
+C'est le tour du ticket 15
+Client : c24 Groupe G9 Action : Rejoindre Piste 3
+Client : c45 Groupe G8 Action : Quitter la piste 1
+Client : c39 Groupe G9 Action : Rejoindre Piste 3
+Client : c25 Groupe G9 Action : Rejoindre Piste 3
+Client : c25 Groupe G9 Action : Jouer sur piste 3
+Client : c45 Groupe G8 Action : paiement sur le stand 2
+Client : c45 Groupe G8 Action : Rendre chaussure
+Client : c31 Groupe G9 Action : Jouer sur piste 3
+Client : c24 Groupe G9 Action : Jouer sur piste 3
+Client : c22 Groupe G10 Action : Danser
+Client : c39 Groupe G9 Action : Jouer sur piste 3
+Client : c23 Groupe G10 Action : Danser
+Client : c31 Groupe G9 Action : Quitter la piste 3
+Client : c36 Groupe G10 Action : Danser
+Client : c21 Groupe G10 Action : Danser
+Client : c33 Groupe G5 Action : Quitter la piste 0
+Client : c54 Groupe G5 Action : Quitter la piste 0
+Client : c43 Groupe G5 Action : Quitter la piste 0
+Client : c52 Groupe G5 Action : Quitter la piste 0
+Client : c21 Groupe G10 Action : Prendre Piste 0
+C'est le tour du ticket 16
+Client : c36 Groupe G10 Action : Rejoindre Piste 0
+Client : c23 Groupe G10 Action : Rejoindre Piste 0
+Client : c22 Groupe G10 Action : Rejoindre Piste 0
+Client : c25 Groupe G9 Action : Quitter la piste 3
+Client : c22 Groupe G10 Action : Jouer sur piste 0
+Client : c24 Groupe G9 Action : Quitter la piste 3
+Client : c39 Groupe G9 Action : Quitter la piste 3
+Client : c47 Groupe G8 Action : Quitter la piste 1
+Client : c32 Groupe G8 Action : Quitter la piste 1
+Client : c26 Groupe G8 Action : Quitter la piste 1
+Client : c28 Groupe G7 Action : Quitter la piste 2
+Client : c27 Groupe G7 Action : Quitter la piste 2
+Client : c38 Groupe G7 Action : Quitter la piste 2
+Client : c48 Groupe G7 Action : Quitter la piste 2
+Client : c31 Groupe G9 Action : paiement sur le stand 0
+Client : c33 Groupe G5 Action : paiement sur le stand 1
+Client : c24 Groupe G9 Action : paiement sur le stand 2
+Client : c31 Groupe G9 Action : Rendre chaussure
+Client : c38 Groupe G7 Action : paiement sur le stand 0
+Client : c32 Groupe G8 Action : paiement sur le stand 1
+Client : c48 Groupe G7 Action : paiement sur le stand 2
+Client : c38 Groupe G7 Action : Rendre chaussure
+Client : c27 Groupe G7 Action : paiement sur le stand 0
+Client : c25 Groupe G9 Action : paiement sur le stand 1
+Client : c26 Groupe G8 Action : paiement sur le stand 2
+Client : c24 Groupe G9 Action : Rendre chaussure
+Client : c52 Groupe G5 Action : paiement sur le stand 1
+Client : c21 Groupe G10 Action : Jouer sur piste 0
+Client : c28 Groupe G7 Action : paiement sur le stand 0
+Client : c47 Groupe G8 Action : paiement sur le stand 2
+Client : c52 Groupe G5 Action : Rendre chaussure
+Client : c54 Groupe G5 Action : paiement sur le stand 0
+Client : c43 Groupe G5 Action : paiement sur le stand 1
+Client : c39 Groupe G9 Action : paiement sur le stand 2
+Client : c33 Groupe G5 Action : Rendre chaussure
+Client : c39 Groupe G9 Action : Rendre chaussure
+Client : c36 Groupe G10 Action : Jouer sur piste 0
+Client : c43 Groupe G5 Action : Rendre chaussure
+Client : c54 Groupe G5 Action : Rendre chaussure
+Client : c47 Groupe G8 Action : Rendre chaussure
+Client : c28 Groupe G7 Action : Rendre chaussure
+Client : c23 Groupe G10 Action : Jouer sur piste 0
+Client : c26 Groupe G8 Action : Rendre chaussure
+Client : c25 Groupe G9 Action : Rendre chaussure
+Client : c27 Groupe G7 Action : Rendre chaussure
+Client : c48 Groupe G7 Action : Rendre chaussure
+Client : c23 Groupe G10 Action : Quitter la piste 0
+Client : c22 Groupe G10 Action : Quitter la piste 0
+Client : c21 Groupe G10 Action : Quitter la piste 0
+Client : c36 Groupe G10 Action : Quitter la piste 0
+Client : c32 Groupe G8 Action : Rendre chaussure
+Client : c23 Groupe G10 Action : paiement sur le stand 2
+Client : c22 Groupe G10 Action : paiement sur le stand 1
+Client : c36 Groupe G10 Action : paiement sur le stand 0
+Client : c23 Groupe G10 Action : Rendre chaussure
+Client : c21 Groupe G10 Action : paiement sur le stand 2
+Client : c36 Groupe G10 Action : Rendre chaussure
+Client : c22 Groupe G10 Action : Rendre chaussure
+Client : c21 Groupe G10 Action : Rendre chaussure
+

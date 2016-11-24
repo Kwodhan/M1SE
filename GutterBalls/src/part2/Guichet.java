@@ -1,26 +1,29 @@
-package part1;
+package part2;
 /**
  * 
  * @author Antoine FEREY
  *
  */
-public class SalleGuichet {
+public class Guichet {
 
 	/**
 	 * Pointeur pour distribuer les groupes
 	 */
-	public  Groupe groupe;
+	public static Groupe groupe;
 	/**
 	 * Numéro du groupe
 	 */
-	public  int k;
+	public static int k;
+	/**
+	 * numéro du guichet
+	 */
+	private final int num;
 
+	public Guichet(int num) {
 
-	public SalleGuichet() {
-
-		k = 0;
-		this.groupe = new Groupe("G" + 0);
-
+		Guichet.k = 0;
+		Guichet.groupe = new Groupe("G" + 0);
+		this.num = num;
 	}
 
 	/**
@@ -37,16 +40,10 @@ public class SalleGuichet {
 			e.printStackTrace();
 		}
 
-		
-		this.groupe.addClient(c);
+		Guichet.add(c);
+
 		System.out.println("Client : " + c.getNom() + " Groupe " + c.getGroupe().getNom()
-				+ " Action : Inscrition ");
-		if (this.groupe.isComplete()) { // si le groupe est complet on en crée un nouveau
-			System.out.println("Le groupe " + this.groupe.getNom() + " est plein");
-			this.k++;
-			this.groupe = new Groupe("G" + (this.k));
-		}
-		
+				+ " Action : Inscrition sur le stand " + this.num);
 
 	}
 
@@ -63,10 +60,20 @@ public class SalleGuichet {
 			e.printStackTrace();
 		}
 		System.out.println("Client : " + c.getNom() + " Groupe " + c.getGroupe().getNom()
-				+ " Action : paiement ");
+				+ " Action : paiement sur le stand " + this.num);
 
 	}
 
-	
+	/**
+	 * Operation static pour ajouter des clients
+	 */
+	public static synchronized void add(Client c) {
+		if (Guichet.groupe.isComplete()) {
+			System.out.println("Le groupe " + Guichet.groupe.getNom() + " est plein");
+			Guichet.k++;
+			Guichet.groupe = new Groupe("G" + (Guichet.k));
+		}
+		Guichet.groupe.addClient(c);
+	}
 
 }
